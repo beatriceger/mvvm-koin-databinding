@@ -1,0 +1,25 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+    </data>
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".SplashFragment">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Splash Fragment"
+                tools:layout_editor_absoluteX="16dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:id="@+id/textView2"
+                android:layout_marginTop="204dp"/>
+
+    </android.support.constraint.ConstraintLayout>
+</layout>
